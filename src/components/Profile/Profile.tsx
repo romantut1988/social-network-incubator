@@ -1,10 +1,10 @@
 import React from "react";
 import s from './Profile.module.css';
-import Post from "./MyPosts/MyPosts";
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img
                     src='https://share.america.gov/wp-content/uploads/2018/06/international-waters-freedom-of-navigation-DY8ERP.jpg'/>
@@ -12,7 +12,7 @@ const Profile = () => {
             <div>
                 avatar + description
             </div>
-            <Post/>
+            <MyPosts />
         </div>
     );
 }
