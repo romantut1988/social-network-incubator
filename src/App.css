@@ -39,7 +39,7 @@
 
 .app-wrapper {
     margin: 0 auto;
-    width: 1200px;
+    /*width: 1200px;*/
     display: grid;
     grid-template-areas: "h h"  "n c";
 
@@ -52,8 +52,9 @@
     background-color: cornflowerblue;
 }
 
-
-
+img {
+    width: 100%;
+}
 
 
 
